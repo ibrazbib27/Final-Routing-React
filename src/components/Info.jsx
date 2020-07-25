@@ -3,6 +3,8 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Aside from "./Aside";
 import PersonDesc from "./People/PersonDesc";
+import "isomorphic-fetch";
+import "es6-promise";
 
 class Info extends Component {
   constructor() {
