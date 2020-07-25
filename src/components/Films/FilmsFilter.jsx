@@ -53,7 +53,7 @@ const FilmsFilter = (props) => {
         className="w-100"
         href="#"
         onClick={() => {
-          props.down("title");
+          props.up("title");
         }}
       >
         Title <FontAwesomeIcon className="ml-2" icon={faSortUp} />
@@ -62,7 +62,7 @@ const FilmsFilter = (props) => {
         className="w-100"
         href="#"
         onClick={() => {
-          props.up("title");
+          props.down("title");
         }}
       >
         Title <FontAwesomeIcon className="ml-2" icon={faSortDown} />
