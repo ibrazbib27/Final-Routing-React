@@ -4,6 +4,8 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import FilmsFilter from "./Films/FilmsFilter";
 import PeopleFilter from "./People/PeopleFilter";
+import "isomorphic-fetch";
+import "es6-promise";
 
 class RenderPage extends Component {
   constructor() {
