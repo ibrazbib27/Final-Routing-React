@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Col from "react-bootstrap/Col";
+import "isomorphic-fetch";
+import "es6-promise";
 
 class ReturnFilms extends Component {
   constructor() {
