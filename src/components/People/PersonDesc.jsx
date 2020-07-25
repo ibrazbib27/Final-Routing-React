@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "isomorphic-fetch";
+import "es6-promise";
 
 class PersonDesc extends Component {
   constructor() {
