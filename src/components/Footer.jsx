@@ -27,7 +27,7 @@ const Footer = (props) => {
         </Row>
       </Col>
 
-      <Col xs={12} className="text-center smaller font-italic text-white my-2">
+      <Col xs={12} className="text-center small font-italic text-white my-2">
         © 2020 Copyright: studioghibliwiki.com
       </Col>
     </Row>
